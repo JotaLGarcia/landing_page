@@ -1,0 +1,70 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #2c7a2c;
+  }
+  
+  .slogan {
+    font-size: 1.2rem;
+    color: #4caf50;
+  }
+  
+  .banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .helpButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .helpButton:hover {
+    background-color: #388e3c;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* 📱 Para telas menores que 480px */
+  @media (max-width: 480px) {
+    .slogan {
+      font-size: 1rem;
+    }
+    .helpButton {
+      width: 100%;
+    }
+  }
+  
+  /* 📱 Para tablets (até 768px) */
+  @media (max-width: 768px) {
+    .description {
+      font-size: 1rem;
+    }
+  }
+  
+  /* 💻 Para telas maiores que 1024px */
+  @media (min-width: 1024px) {
+    .description {
+      font-size: 1.2rem;
+    }
+  }
+  
