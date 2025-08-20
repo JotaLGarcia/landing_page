@@ -142,7 +142,7 @@ export default function App() {
   function onFakeSubmit(e) {
     e.preventDefault(); // não envia nada
     setOpen(false);     // fecha só para simular
-    alert("Recebemos seu interesse! (simulação)");
+    alert("Recebemos seu Cadastro (simulação)");
   }
 
   return (
